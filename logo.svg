@@ -1,0 +1,40 @@
+<svg width="120" height="160" viewBox="0 0 120 160" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title desc">
+  <title>شعار التوازن الأول</title>
+  <desc>ميزان أخضر مع أغصان زيتون يرمز للتوازن والجودة</desc>
+  <defs>
+    <style>
+      .g { fill:#2f7d32; }
+    </style>
+  </defs>
+  <rect x="20" y="8" width="80" height="10" class="g" rx="2"/>
+  <rect x="57" y="16" width="6" height="30" class="g"/>
+  <rect x="50" y="128" width="20" height="6" class="g"/>
+  <rect x="38" y="134" width="44" height="6" class="g"/>
+  <rect x="20" y="140" width="80" height="6" class="g"/>
+
+  <!-- العمود -->
+  <rect x="57" y="42" width="6" height="88" class="g" rx="2"/>
+
+  <!-- العارضة -->
+  <rect x="22" y="46" width="76" height="6" class="g" rx="2"/>
+
+  <!-- كفتي الميزان -->
+  <path class="g" d="M34 52c0 14-6 26-16 32l8 10c11-7 18-22 18-42H34z"/>
+  <path class="g" d="M86 52c0 14 6 26 16 32l-8 10c-11-7-18-22-18-42h10z"/>
+
+  <!-- أوعية الميزان -->
+  <path class="g" d="M22 96h28c-3 12-9 22-14 27-5-5-11-15-14-27z" />
+  <path class="g" d="M70 96h28c-3 12-9 22-14 27-5-5-11-15-14-27z" />
+
+  <!-- أغصان -->
+  <path class="g" d="M60 42c0 0 6-10 12-10 6 0 10 2 14 8" fill="none" stroke="#2f7d32" stroke-width="4" stroke-linecap="round"/>
+  <path class="g" d="M60 42c0 0-6-10-12-10-6 0-10 2-14 8" fill="none" stroke="#2f7d32" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- أوراق -->
+  <circle cx="74" cy="34" r="3.5" class="g"/>
+  <circle cx="82" cy="40" r="3.5" class="g"/>
+  <circle cx="68" cy="40" r="3.5" class="g"/>
+  <circle cx="46" cy="34" r="3.5" class="g"/>
+  <circle cx="38" cy="40" r="3.5" class="g"/>
+  <circle cx="52" cy="40" r="3.5" class="g"/>
+</svg>

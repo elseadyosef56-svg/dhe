@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>اتصل بنا | التوازن الأول</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="contact">
+  <header class="site-header">
+    <div class="nav-container">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.svg" alt="شعار التوازن الأول" class="logo">
+        <div class="brand-text">
+          <strong>التوازن الأول</strong>
+          <small>للتفتيش والمطابقة الدولية</small>
+        </div>
+      </a>
+      <button class="menu-toggle" aria-label="فتح القائمة">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="gallery.html">معرض الأعمال</a></li>
+        <li><a href="contact.html">اتصل بنا</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="page-heading">
+      <p class="eyebrow">نستقبل طلباتكم</p>
+      <h1>اتصل بنا</h1>
+      <p class="lead">تواصل معنا لأي استفسار أو طلب خدمة تفتيش ومطابقة.</p>
+    </section>
+
+    <section class="contact-cards">
+      <div class="contact-card">
+        <h3>أرقام الاتصال</h3>
+        <p>0916611414</p>
+        <p>0918932525</p>
+      </div>
+      <div class="contact-card">
+        <h3>العنوان</h3>
+        <p>شارع جمال عبد الناصر بجوار كلامي الظمان، الزاوية، ليبيا</p>
+      </div>
+    </section>
+
+    <section class="form-section">
+      <h2>أرسل رسالة</h2>
+      <form id="contactForm" class="contact-form" novalidate>
+        <label>
+          الاسم
+          <input type="text" name="name" required placeholder="الاسم الكامل">
+        </label>
+        <label>
+          الرقم
+          <input type="tel" name="phone" required placeholder="مثال: 091xxxxxxx">
+        </label>
+        <label>
+          الموضوع
+          <input type="text" name="subject" required placeholder="موضوع الرسالة">
+        </label>
+        <label>
+          الرسالة
+          <textarea name="message" rows="4" required placeholder="اكتب رسالتك هنا"></textarea>
+        </label>
+        <button type="submit" class="btn primary">إرسال</button>
+        <p class="form-feedback" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 التوازن الأول للتفتيش والمطابقة الدولية</p>
+  </footer>
+
+  <script src="assets/script.js" defer></script>
+</body>
+</html>
